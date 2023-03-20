@@ -8,6 +8,9 @@ packages = [{include = "invoice_generation"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^1.5.3"
+fpdf = "^1.7.2"
+openpyxl = "^3.1.2"
 
 
 [build-system]
